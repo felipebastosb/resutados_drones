@@ -1,0 +1,426 @@
+2018.06.05 20:46:27.680 
+
+wibatch version 3.2.0.3 - r52342
+  Built with gcc 4.4.7
+  Built with Qt 4.8.4
+  Using Qt 4.8.4
+
+2018.06.05 20:46:27.680 Tue Jun 5 20:46:27 2018
+2018.06.05 20:46:27.687 Detecting X3D CUDA Information..
+2018.06.05 20:46:27.687 CUDA toolkit unable to retrieve version information. (CUDA driver version is insufficient for CUDA runtime version)
+2018.06.05 20:46:27.687 CUDA runtime unable to retrieve version information. (CUDA driver version is insufficient for CUDA runtime version)
+2018.06.05 20:46:27.687 CUDA Runtime version = 0.0
+2018.06.05 20:46:27.687 CUDA Driver version  = 0.0
+2018.06.05 20:46:27.688 Initializing Wireless InSite X3D model
+2018.06.05 20:46:27.688 Monte Carlo parameters not detected.
+2018.06.05 20:46:27.688 ============ GEOMETRY ============
+2018.06.05 20:46:27.688 Building geometry
+2018.06.05 20:46:27.847  ============ TRANSMITTER/RECEIVER SETS ============
+2018.06.05 20:46:27.847 Generating transmitter and receiver sets
+2018.06.05 20:46:27.851 Antenna: HalfWaveDipole
+Cable loss (dB): 0
+Polarization: Vertical
+Power threshold (dBm): -250
+Temperature (K): 293
+VSWR: 1
+
+2018.06.05 20:46:27.851 Waveform: Sinusoid
+Amplitude: 1
+Carrier frequency (MHz): 60000
+Phase (degrees): 0
+
+2018.06.05 20:46:27.851 Bandwidth (MHz): 1
+Dispersive: no
+
+2018.06.05 20:46:27.852 Set number: 1
+Type: PointSet
+Number of points: 1
+APG Accelerated: no
+Fit to terrain: yes
+
+2018.06.05 20:46:27.852 Antenna: HalfWaveDipole
+Cable loss (dB): 0
+Polarization: Vertical
+Power threshold (dBm): -250
+Temperature (K): 293
+VSWR: 1
+
+2018.06.05 20:46:27.852 Waveform: Sinusoid
+Amplitude: 1
+Carrier frequency (MHz): 60000
+Phase (degrees): 0
+
+2018.06.05 20:46:27.852 Bandwidth (MHz): 1
+Dispersive: no
+
+2018.06.05 20:46:27.853 Set number: 2
+Type: PointSet
+Number of points: 10
+APG Accelerated: no
+Fit to terrain: yes
+
+2018.06.05 20:46:27.853 Receiver collection radius (m): auto
+
+2018.06.05 20:46:27.853 Auto Collection Radius = 10.3069
+2018.06.05 20:46:27.853 Scene information: 
+    Number of facets: 18354
+    Number of spheres: 10
+
+BSPTree information: 
+    Number of superfacets: 1263
+    Number of subfacets: 18354
+    Maximum depth: 26
+    Bounding box: 
+      Minimum: (369.176, 284.644, 16.3666)
+      Maximum: (863.212, 819.551, 216.367)
+
+CompleteEdgeSet information: 
+    Number of superedges: 886
+    Number of subedges: 1296
+Maximum Scene Distance: 1181.08
+
+2018.06.05 20:46:27.854 ============ MATERIALS ============
+2018.06.05 20:46:27.854 Diffuse Scattering: Enabled, Refl:2, Diff:1, Trans:0, FinalOnly:true
+2018.06.05 20:46:27.854 Material number: 5
+Type: LayeredDielectric
+Thickness (m): 0
+
+2018.06.05 20:46:27.854 Layer 0: 
+2018.06.05 20:46:27.854     Relative permittivity: 5.31
+    Conductivity (S/m): 0.4838
+    Thickness (m): 0.3
+    Roughness (m): 0
+
+2018.06.05 20:46:27.854 Material number: 6
+Type: LayeredDielectric
+Thickness (m): 0
+
+2018.06.05 20:46:27.854 Layer 0: 
+2018.06.05 20:46:27.854     Relative permittivity: 5.31
+    Conductivity (S/m): 0.8967
+    Thickness (m): 0.3
+    Roughness (m): 0
+
+2018.06.05 20:46:27.854 Material number: 1
+Type: LayeredDielectric
+Thickness (m): 0
+
+2018.06.05 20:46:27.854 Layer 0: 
+2018.06.05 20:46:27.854     Relative permittivity: 5.31
+    Conductivity (S/m): 0.4838
+    Thickness (m): 0.3
+    Roughness (m): 0
+
+2018.06.05 20:46:27.854 Material number: 2
+Type: LayeredDielectric
+Thickness (m): 0
+
+2018.06.05 20:46:27.854 Layer 0: 
+2018.06.05 20:46:27.854     Relative permittivity: 5.31
+    Conductivity (S/m): 0.8967
+    Thickness (m): 0.3
+    Roughness (m): 0
+
+2018.06.05 20:46:27.854 Material number: 0
+Type: PEC
+Thickness (m): 0
+
+2018.06.05 20:46:27.854 Roughness (m): 0
+
+2018.06.05 20:46:27.854 ============ ATMOSPHERE ============
+2018.06.05 20:46:27.854 Pressure = 1013.25
+2018.06.05 20:46:27.854 Temperature = 22.2
+2018.06.05 20:46:27.854 Humidity = 50
+2018.06.05 20:46:28.431 ============ MODEL ============
+2018.06.05 20:46:28.442 Starting X3D ray tracing for Tx set 1, point 1 (point 1 of 1 total)
+2018.06.05 20:46:28.442   Initializing 12 threads
+2018.06.05 20:46:28.442   Diffraction cone ray angle=0.25
+2018.06.05 20:46:28.442   Using CPU ray tracer
+2018.06.05 20:46:28.486   Ray tracing ranges: 
+2018.06.05 20:46:28.486     Minimum phi: 0
+2018.06.05 20:46:28.486     Maximum phi: 360
+2018.06.05 20:46:28.487     Minimum theta: 0
+2018.06.05 20:46:28.487     Maximum theta: 180
+2018.06.05 20:46:28.487   Model parameters: 
+2018.06.05 20:46:28.487     Reflections:         6
+2018.06.05 20:46:28.487     Transmissions:       0
+2018.06.05 20:46:28.487     Diffractions:        1
+2018.06.05 20:46:28.487     Ray spacing (degrees): 1
+2018.06.05 20:46:28.488   Advanced model parameters:
+2018.06.05 20:46:28.488     Maximum reflections before first diffraction: 3
+2018.06.05 20:46:28.488     Maximum reflections between two diffractions: 0
+2018.06.05 20:46:28.488     Maximum reflections after last diffraction: 3
+2018.06.05 20:46:29.005 
+2018.06.05 20:46:29.006   Beginning next round of queued diffractions
+2018.06.05 20:46:29.006 
+2018.06.05 20:47:05.938   CPU ray tracing (14878488 active): 5% complete
+2018.06.05 20:47:06.123   CPU ray tracing (15140664 active): 10% complete
+2018.06.05 20:47:06.202   CPU ray tracing (15337296 active): 15% complete
+2018.06.05 20:47:06.218   CPU ray tracing (15402840 active): 22% complete
+2018.06.05 20:47:06.231   CPU ray tracing (15468384 active): 30% complete
+2018.06.05 20:47:06.242   CPU ray tracing (15533928 active): 38% complete
+2018.06.05 20:47:06.251   CPU ray tracing (15599472 active): 39% complete
+2018.06.05 20:47:06.259   CPU ray tracing (15665016 active): 48% complete
+2018.06.05 20:47:06.267   CPU ray tracing (15730560 active): 56% complete
+2018.06.05 20:47:06.273   CPU ray tracing (15796104 active): 67% complete
+2018.06.05 20:47:06.279   CPU ray tracing (15861648 active): 72% complete
+2018.06.05 20:47:06.284   CPU ray tracing (15927192 active): 73% complete
+2018.06.05 20:47:06.291   CPU ray tracing (15992736 active): 75% complete
+2018.06.05 20:47:06.296   CPU ray tracing (16058280 active): 76% complete
+2018.06.05 20:47:06.301   CPU ray tracing (16123824 active): 83% complete
+2018.06.05 20:47:06.306   CPU ray tracing (16189368 active): 84% complete
+2018.06.05 20:47:06.311   CPU ray tracing (16254912 active): 85% complete
+2018.06.05 20:47:06.321   CPU ray tracing (16386000 active): 96% complete
+2018.06.05 20:47:06.325   CPU ray tracing (16451544 active): 97% complete
+2018.06.05 20:47:06.338   Total Number of Rays shot: 16648176
+2018.06.05 20:47:06.339   Total Number of active rays shot: 14140678
+2018.06.05 20:47:06.339   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:06.339   66077 unique paths found. Time: 37.8519
+2018.06.05 20:47:06.339 Ray tracing additional diffuse scatter paths point 1 of 10
+2018.06.05 20:47:06.349   Advanced model parameters:
+2018.06.05 20:47:06.349     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:06.349     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:06.349     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:06.470   Total Number of Rays shot: 65544
+2018.06.05 20:47:06.471   Total Number of active rays shot: 41424
+2018.06.05 20:47:06.471   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:06.471   209 unique paths found. Time: 0.122018
+2018.06.05 20:47:06.471 
+2018.06.05 20:47:06.471   Calculating E-fields and generating output
+2018.06.05 20:47:06.471 
+2018.06.05 20:47:06.505     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:06.505     Frequency = 6e+10
+2018.06.05 20:47:06.505     Attenuation (db/km) = 14.1681
+2018.06.05 20:47:11.995      Paths    Channels  Database
+2018.06.05 20:47:11.995        0.00%     0.00%     0.00%
+2018.06.05 20:47:12.053      100.00%   100.00%   100.00%
+2018.06.05 20:47:12.061     Original interaction chains:         37072
+2018.06.05 20:47:12.061     Interaction chains eliminated:       29318
+2018.06.05 20:47:12.061     Physical paths generated:             7754
+2018.06.05 20:47:12.061     High power paths retained:             250
+2018.06.05 20:47:12.062     Low power paths eliminated:           7504
+2018.06.05 20:47:12.062 Ray tracing additional diffuse scatter paths point 2 of 10
+2018.06.05 20:47:12.072   Advanced model parameters:
+2018.06.05 20:47:12.072     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:12.072     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:12.072     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:12.197   Total Number of Rays shot: 65544
+2018.06.05 20:47:12.197   Total Number of active rays shot: 41424
+2018.06.05 20:47:12.197   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:12.197   224 unique paths found. Time: 0.126506
+2018.06.05 20:47:12.198 
+2018.06.05 20:47:12.198   Calculating E-fields and generating output
+2018.06.05 20:47:12.198 
+2018.06.05 20:47:12.229     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:12.229     Frequency = 6e+10
+2018.06.05 20:47:12.230     Attenuation (db/km) = 14.1681
+2018.06.05 20:47:18.379      Paths    Channels  Database
+2018.06.05 20:47:18.379        0.00%     0.00%     0.00%
+2018.06.05 20:47:18.431      100.00%   100.00%   100.00%
+2018.06.05 20:47:18.441     Original interaction chains:         39772
+2018.06.05 20:47:18.441     Interaction chains eliminated:       31064
+2018.06.05 20:47:18.441     Physical paths generated:             8708
+2018.06.05 20:47:18.441     High power paths retained:             250
+2018.06.05 20:47:18.441     Low power paths eliminated:           8458
+2018.06.05 20:47:18.441 Ray tracing additional diffuse scatter paths point 3 of 10
+2018.06.05 20:47:18.452   Advanced model parameters:
+2018.06.05 20:47:18.452     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:18.452     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:18.452     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:18.572   Total Number of Rays shot: 65544
+2018.06.05 20:47:18.572   Total Number of active rays shot: 41424
+2018.06.05 20:47:18.572   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:18.572   198 unique paths found. Time: 0.1209
+2018.06.05 20:47:18.572 
+2018.06.05 20:47:18.572   Calculating E-fields and generating output
+2018.06.05 20:47:18.572 
+2018.06.05 20:47:18.603     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:18.603     Frequency = 6e+10
+2018.06.05 20:47:18.603     Attenuation (db/km) = 14.1681
+2018.06.05 20:47:24.033      Paths    Channels  Database
+2018.06.05 20:47:24.033        0.00%     0.00%     0.00%
+2018.06.05 20:47:24.079      100.00%   100.00%   100.00%
+2018.06.05 20:47:24.098     Original interaction chains:         39530
+2018.06.05 20:47:24.098     Interaction chains eliminated:       31495
+2018.06.05 20:47:24.098     Physical paths generated:             8035
+2018.06.05 20:47:24.099     High power paths retained:             250
+2018.06.05 20:47:24.099     Low power paths eliminated:           7785
+2018.06.05 20:47:24.099 Ray tracing additional diffuse scatter paths point 4 of 10
+2018.06.05 20:47:24.109   Advanced model parameters:
+2018.06.05 20:47:24.109     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:24.109     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:24.109     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:24.239   Total Number of Rays shot: 65544
+2018.06.05 20:47:24.239   Total Number of active rays shot: 41424
+2018.06.05 20:47:24.239   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:24.239   229 unique paths found. Time: 0.130474
+2018.06.05 20:47:24.239 
+2018.06.05 20:47:24.239   Calculating E-fields and generating output
+2018.06.05 20:47:24.239 
+2018.06.05 20:47:24.271     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:24.271     Frequency = 6e+10
+2018.06.05 20:47:24.271     Attenuation (db/km) = 14.1681
+2018.06.05 20:47:31.599      Paths    Channels  Database
+2018.06.05 20:47:31.599        0.00%     0.00%     0.00%
+2018.06.05 20:47:31.662      100.00%   100.00%   100.00%
+2018.06.05 20:47:31.676     Original interaction chains:         46783
+2018.06.05 20:47:31.676     Interaction chains eliminated:       35750
+2018.06.05 20:47:31.676     Physical paths generated:            11033
+2018.06.05 20:47:31.676     High power paths retained:             250
+2018.06.05 20:47:31.676     Low power paths eliminated:          10783
+2018.06.05 20:47:31.676 Ray tracing additional diffuse scatter paths point 5 of 10
+2018.06.05 20:47:31.687   Advanced model parameters:
+2018.06.05 20:47:31.687     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:31.687     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:31.687     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:31.806   Total Number of Rays shot: 65544
+2018.06.05 20:47:31.806   Total Number of active rays shot: 41424
+2018.06.05 20:47:31.806   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:31.806   219 unique paths found. Time: 0.120232
+2018.06.05 20:47:31.806 
+2018.06.05 20:47:31.806   Calculating E-fields and generating output
+2018.06.05 20:47:31.806 
+2018.06.05 20:47:31.837     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:31.837     Frequency = 6e+10
+2018.06.05 20:47:31.837     Attenuation (db/km) = 14.1681
+2018.06.05 20:47:38.062      Paths    Channels  Database
+2018.06.05 20:47:38.062        0.00%     0.00%     0.00%
+2018.06.05 20:47:38.115      100.00%   100.00%   100.00%
+2018.06.05 20:47:38.133     Original interaction chains:         38646
+2018.06.05 20:47:38.133     Interaction chains eliminated:       30379
+2018.06.05 20:47:38.133     Physical paths generated:             8267
+2018.06.05 20:47:38.133     High power paths retained:             250
+2018.06.05 20:47:38.134     Low power paths eliminated:           8017
+2018.06.05 20:47:38.134 Ray tracing additional diffuse scatter paths point 6 of 10
+2018.06.05 20:47:38.144   Advanced model parameters:
+2018.06.05 20:47:38.144     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:38.144     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:38.144     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:38.279   Total Number of Rays shot: 65544
+2018.06.05 20:47:38.279   Total Number of active rays shot: 41424
+2018.06.05 20:47:38.279   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:38.279   220 unique paths found. Time: 0.135374
+2018.06.05 20:47:38.279 
+2018.06.05 20:47:38.279   Calculating E-fields and generating output
+2018.06.05 20:47:38.279 
+2018.06.05 20:47:38.310     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:38.310     Frequency = 6e+10
+2018.06.05 20:47:38.310     Attenuation (db/km) = 14.1681
+2018.06.05 20:47:45.469      Paths    Channels  Database
+2018.06.05 20:47:45.470        0.00%     0.00%     0.00%
+2018.06.05 20:47:45.534      100.00%   100.00%   100.00%
+2018.06.05 20:47:45.548     Original interaction chains:         44829
+2018.06.05 20:47:45.548     Interaction chains eliminated:       34574
+2018.06.05 20:47:45.548     Physical paths generated:            10255
+2018.06.05 20:47:45.548     High power paths retained:             250
+2018.06.05 20:47:45.548     Low power paths eliminated:          10005
+2018.06.05 20:47:45.548 Ray tracing additional diffuse scatter paths point 7 of 10
+2018.06.05 20:47:45.558   Advanced model parameters:
+2018.06.05 20:47:45.558     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:45.558     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:45.558     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:45.686   Total Number of Rays shot: 65544
+2018.06.05 20:47:45.686   Total Number of active rays shot: 41424
+2018.06.05 20:47:45.686   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:45.687   218 unique paths found. Time: 0.128882
+2018.06.05 20:47:45.687 
+2018.06.05 20:47:45.687   Calculating E-fields and generating output
+2018.06.05 20:47:45.687 
+2018.06.05 20:47:45.718     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:45.718     Frequency = 6e+10
+2018.06.05 20:47:45.718     Attenuation (db/km) = 14.1681
+2018.06.05 20:47:53.019      Paths    Channels  Database
+2018.06.05 20:47:53.019        0.00%     0.00%     0.00%
+2018.06.05 20:47:53.074      100.00%   100.00%   100.00%
+2018.06.05 20:47:53.097     Original interaction chains:         46133
+2018.06.05 20:47:53.097     Interaction chains eliminated:       35423
+2018.06.05 20:47:53.097     Physical paths generated:            10710
+2018.06.05 20:47:53.097     High power paths retained:             250
+2018.06.05 20:47:53.097     Low power paths eliminated:          10460
+2018.06.05 20:47:53.097 Ray tracing additional diffuse scatter paths point 8 of 10
+2018.06.05 20:47:53.107   Advanced model parameters:
+2018.06.05 20:47:53.107     Maximum reflections before first diffraction: 0
+2018.06.05 20:47:53.107     Maximum reflections between two diffractions: 0
+2018.06.05 20:47:53.107     Maximum reflections after last diffraction: 0
+2018.06.05 20:47:53.234   Total Number of Rays shot: 65544
+2018.06.05 20:47:53.234   Total Number of active rays shot: 41424
+2018.06.05 20:47:53.234   Total cones: 0... cone rays shot: 0
+2018.06.05 20:47:53.234   225 unique paths found. Time: 0.127638
+2018.06.05 20:47:53.234 
+2018.06.05 20:47:53.234   Calculating E-fields and generating output
+2018.06.05 20:47:53.234 
+2018.06.05 20:47:53.265     ============ ATMOSPHERE ============
+
+2018.06.05 20:47:53.265     Frequency = 6e+10
+2018.06.05 20:47:53.265     Attenuation (db/km) = 14.1681
+2018.06.05 20:48:00.046      Paths    Channels  Database
+2018.06.05 20:48:00.046        0.00%     0.00%     0.00%
+2018.06.05 20:48:00.106      100.00%   100.00%   100.00%
+2018.06.05 20:48:00.120     Original interaction chains:         45690
+2018.06.05 20:48:00.120     Interaction chains eliminated:       35269
+2018.06.05 20:48:00.120     Physical paths generated:            10421
+2018.06.05 20:48:00.120     High power paths retained:             250
+2018.06.05 20:48:00.120     Low power paths eliminated:          10171
+2018.06.05 20:48:00.121 Ray tracing additional diffuse scatter paths point 9 of 10
+2018.06.05 20:48:00.131   Advanced model parameters:
+2018.06.05 20:48:00.131     Maximum reflections before first diffraction: 0
+2018.06.05 20:48:00.131     Maximum reflections between two diffractions: 0
+2018.06.05 20:48:00.131     Maximum reflections after last diffraction: 0
+2018.06.05 20:48:00.264   Total Number of Rays shot: 65544
+2018.06.05 20:48:00.264   Total Number of active rays shot: 41424
+2018.06.05 20:48:00.264   Total cones: 0... cone rays shot: 0
+2018.06.05 20:48:00.264   21 unique paths found. Time: 0.134148
+2018.06.05 20:48:00.264 
+2018.06.05 20:48:00.264   Calculating E-fields and generating output
+2018.06.05 20:48:00.264 
+2018.06.05 20:48:00.286     ============ ATMOSPHERE ============
+
+2018.06.05 20:48:00.286     Frequency = 6e+10
+2018.06.05 20:48:00.286     Attenuation (db/km) = 14.1681
+2018.06.05 20:48:00.343     Original interaction chains:         10826
+2018.06.05 20:48:00.343     Interaction chains eliminated:       10826
+2018.06.05 20:48:00.343     Physical paths generated:                0
+2018.06.05 20:48:00.343     High power paths retained:               0
+2018.06.05 20:48:00.343     Low power paths eliminated:              0
+2018.06.05 20:48:00.343 Ray tracing additional diffuse scatter paths point 10 of 10
+2018.06.05 20:48:00.354   Advanced model parameters:
+2018.06.05 20:48:00.354     Maximum reflections before first diffraction: 0
+2018.06.05 20:48:00.354     Maximum reflections between two diffractions: 0
+2018.06.05 20:48:00.354     Maximum reflections after last diffraction: 0
+2018.06.05 20:48:00.466   Total Number of Rays shot: 65544
+2018.06.05 20:48:00.466   Total Number of active rays shot: 41424
+2018.06.05 20:48:00.466   Total cones: 0... cone rays shot: 0
+2018.06.05 20:48:00.466   174 unique paths found. Time: 0.112744
+2018.06.05 20:48:00.466 
+2018.06.05 20:48:00.466   Calculating E-fields and generating output
+2018.06.05 20:48:00.466 
+2018.06.05 20:48:00.493     ============ ATMOSPHERE ============
+
+2018.06.05 20:48:00.493     Frequency = 6e+10
+2018.06.05 20:48:00.493     Attenuation (db/km) = 14.1681
+2018.06.05 20:48:05.384      Paths    Channels  Database
+2018.06.05 20:48:05.384        0.00%     0.00%     0.00%
+2018.06.05 20:48:05.426      100.00%   100.00%   100.00%
+2018.06.05 20:48:05.447     Original interaction chains:         34475
+2018.06.05 20:48:05.447     Interaction chains eliminated:       27463
+2018.06.05 20:48:05.447     Physical paths generated:             7012
+2018.06.05 20:48:05.447     High power paths retained:             250
+2018.06.05 20:48:05.447     Low power paths eliminated:           6762
+2018.06.05 20:48:05.447 
+2018.06.05 20:48:05.459 Total Diffraction Cones: 0
+2018.06.05 20:48:05.460 Writing Wireless InSite binary outputs...
+2018.06.05 20:48:05.460 Output file location: /home/psb/5gm-rwi-simulation/example/2018_02_04_insiteproject_ita/study/
+2018.06.05 20:48:05.460 Output prefix: model
+2018.06.05 20:48:05.480 Tue Jun 5 20:48:05 2018
+2018.06.05 20:48:05.481 
+
+2018.06.05 20:48:05.481 Writing output files
+2018.06.05 20:48:05.486 Finished writing output files
+
