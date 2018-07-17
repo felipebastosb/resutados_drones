@@ -1,0 +1,93 @@
+begin_<points> Tx
+project_id 1
+active
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.078700000000012
+latitude 38.890700000000002
+visible no
+terrain
+end_<reference>
+nVertices 1
+746.000000000000000 560.000000000000000 5.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 0
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> Rx
+project_id 2
+active
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.078700000000012
+latitude 38.890700000000002
+visible no
+terrain
+end_<reference>
+nVertices 10
+675.257249697466364 678.553509658344183 49.804000000000002
+699.207661094852710 396.292530250000141 49.764000000000003
+841.952428552697256 473.207759184340773 49.804000000000002
+672.255915033038832 626.257349222378025 49.664000000000001
+832.311947685641712 539.100738391030745 49.764000000000003
+773.319892307244459 438.857628888336762 49.664000000000001
+792.723571717898494 518.440562937645609 49.804000000000002
+751.199045349299467 704.194392899325067 49.664000000000001
+741.503436744230385 747.566264650833318 49.664000000000001
+717.676089784470491 562.980099757724815 49.664000000000001
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform 0
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
